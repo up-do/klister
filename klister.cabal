@@ -39,7 +39,7 @@ common deps
     extra                >= 1.6.18 && < 1.8,
     filepath             >= 1.4.2 && < 1.5,
     lens                 >= 4.17.1 && < 5.3,
-    megaparsec           >= 7.0.5 && < 9.4,
+    megaparsec           >= 7.0.5 && < 9.6,
     mtl                  >= 2.2.2 && < 2.4,
     prettyprinter        >= 1.2 && < 1.8,
     text                 >= 1.2,
@@ -114,7 +114,7 @@ executable klister
       repl
   ghc-options: -Wall
   build-depends:
-    optparse-applicative >= 0.14 && < 0.18,
+    optparse-applicative >= 0.14 && < 0.19,
     klister
   default-language: Haskell2010
 
@@ -132,7 +132,7 @@ test-suite klister-tests
   ghc-options: -Wall
   build-depends:
     call-stack ^>= 0.4.0,
-    hedgehog >= 1.2 && < 1.4,
+    hedgehog >= 1.2 && < 1.5,
     klister,
     silently ^>= 1.2,
     tasty ^>= 1.4,
