@@ -5,3 +5,5 @@ dist/
 dist-newstyle/
 .updo
 updo
+project-nix/
+project-versions.nix
