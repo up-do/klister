@@ -1,4 +1,4 @@
-import: ./project-stackage/lts-20.25.config
+import: ./project-stackage/lts-20.26.config
 
 -- We have 1 package.
 packages:

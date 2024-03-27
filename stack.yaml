@@ -1,6 +1,6 @@
 user-message: "WARNING: This stack project is generated."
 
-resolver: lts-20.25
+resolver: lts-20.26
 
 # We have 1 package.
 packages:
