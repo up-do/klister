@@ -1,4 +1,4 @@
-import: https://stackage.org/lts-22.14/cabal.config
+import: https://stackage.org/nightly-2024-03-27/cabal.config
 
 -- We have 1 package.
 packages:
