@@ -1,0 +1,15 @@
+user-message: "WARNING: This stack project is generated."
+
+resolver: lts-21.25
+
+# We have 1 package.
+packages:
+  - ./.
+
+extra-deps:
+  # Package versions for published packages either not on Stackage or
+  # not matching the version on Stackage for the resolver we use.
+  # These package-version extra dependencies are equivalent to cabal constraints.
+  - exceptions-0.10.7
+  - mtl-2.3.1
+  - transformers-0.6.1.1
