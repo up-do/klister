@@ -1,5 +1,19 @@
+import: ./project-stackage/lts-20.25.config
+
+-- We have 1 package.
 packages:
-    ./
+    .
+
+-- Version equality constraints.
+constraints:
+    exceptions ==0.10.7
+  , hedgehog ==1.2
+  , mtl ==2.3.1
+  , tasty-hedgehog ==1.4.0.0
+  , transformers ==0.6.1.0
+
+program-options
+  ghc-options: -fhide-source-paths
 
 tests: True
 profiling: False
