@@ -39,7 +39,7 @@ common deps
     extra                >= 1.6.18 && < 1.8,
     filepath             >= 1.4.2 && < 1.5,
     lens                 >= 4.17.1 && < 5.3,
-    megaparsec           >= 7.0.5 && < 9.6,
+    megaparsec           >= 7.0.5 && < 9.7,
     mtl                  >= 2.2.2 && < 2.4,
     prettyprinter        >= 1.2 && < 1.8,
     text                 >= 1.2,
@@ -135,7 +135,7 @@ test-suite klister-tests
     hedgehog >= 1.2 && < 1.5,
     klister,
     silently ^>= 1.2,
-    tasty ^>= 1.4,
+    tasty >=1.4 && < 1.6,
     tasty-golden ^>= 2.3,
     tasty-hedgehog >= 1.4 && < 1.5,
     tasty-hunit ^>= 0.10
